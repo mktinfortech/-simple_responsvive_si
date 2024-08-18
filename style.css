@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: darkgrey;
+}
+
+main{
+    background-color: transparent;
+    width: 660px;
+    padding: 10px ;
+    margin: 50px auto;
+    border-radius: 25px;  
+    box-shadow: 10px 10px 15px rgba(94, 99, 86, 0.281);
+    border: 1px solid black;
+}
+
+p{
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+p a:hover{
+    color: rgba(128, 255, 0, 0.411);
+    transition: .8s;
+    
+}
+
+
+img{
+
+    background-color: #c91919;
+    width: 20px;
+    height: 20px;
+    border-radius: 75px;
+    margin-left: 5px;
+}
+
+
+h2{
+    align-items: center;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 2px 2px 2px black
+}
+h2:hover{
+    color: rgba(20, 220, 37, 0.425);
+    transition: .9s;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+
+.imagemTypes{
+    width: 20px;
+    height: 20px;
+} 
+.imagemReact{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+.imagemVue{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+
+h4{
+    margin-top: 15px;
+    color: rgb(26, 95, 223);
+}
+h4:hover{
+    color: rgba(20, 220, 37, 0.425);
+    transition: .8s;
+    transform: scale(0.9);
+    cursor: pointer;
+}
